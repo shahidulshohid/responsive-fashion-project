@@ -10,8 +10,4 @@
       .banner-section {
         flex-direction: column;
     }
-    .banner-img .img-two {
-        top: 179px;
-        right: 95px;
-    }
-  }
+}
