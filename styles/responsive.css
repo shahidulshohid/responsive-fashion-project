@@ -1,0 +1,17 @@
+@media screen and (max-width: 992px) {
+    /* navbar responsive styles here */
+    .navbar ul {
+        display: none;
+      }
+      .navbar .menu-bar {
+        display: block;
+      }
+      /* banner responsive styles here */
+      .banner-section {
+        flex-direction: column;
+    }
+    .banner-img .img-two {
+        top: 179px;
+        right: 95px;
+    }
+  }
