@@ -28,6 +28,9 @@
   .dress-item {
     margin: 0 auto;
   }
+  .dress-img img {
+    border: none;
+}
   .dress-content-title {
     font-size: 2rem;
     text-align: center;
