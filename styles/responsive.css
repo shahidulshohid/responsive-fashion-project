@@ -36,4 +36,14 @@
   .dress-items-container {
     grid-template-columns: 1fr;
   }
+  .dress-item {
+    margin: 0 auto;
+  }
+  .dress-content-title {
+    font-size: 2rem;
+    text-align: center;
+}
+.dress-img img {
+  border: none;
+}
 }

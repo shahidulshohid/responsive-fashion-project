@@ -40,7 +40,6 @@ p {
 .max-width-container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 5px solid red;
   padding: 25px 0 50px 0;
 }
 /* navbar styles here  */
@@ -119,7 +118,6 @@ main {
 .dress-section {
   width: 90%;
   margin: 0 auto;
-  border: 2px solid rebeccapurple;
 }
 .dress-content-title {
   color: rgb(54, 57, 88);
@@ -133,6 +131,8 @@ main {
   gap: 40px;
 }
 .dress-img {
+  width: 334px;
+  height: 327px;
   border-radius: 20px;
   background: rgb(241, 241, 241);
   padding: 40px;
@@ -142,4 +142,32 @@ main {
   height: 100%;
   border: 2px dashed rgb(211, 206, 206);
   padding: 10px;
+}
+.dress-item-content {
+  width: 334px;
+}
+.dress-item-content .item-title {
+  color: rgb(54, 57, 88);
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.dress-item-content .item-description {
+  color: rgb(62, 62, 62);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.btn-and-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-and-rate span {
+  color: rgb(250, 190, 76);
+  font-size: 2rem;
+  font-weight: 900;
+}
+.both-container-divided {
+  margin-top: 50px;
 }
