@@ -77,9 +77,9 @@ p {
 }
 /* banner section styles here  */
 .banner-section {
-  width:90%;
+  width: 90%;
   margin: 0 auto;
-  border: 5px solid red;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,8 +105,41 @@ p {
 }
 .banner-img .img-two {
   width: 400px;
-	position: absolute;
-  top: -113px;
-  right: 119px;
-	
+  position: absolute;
+  top: -68px;
+  right: 114px;
+}
+/* main section styles here  */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.dress-section {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid rebeccapurple;
+}
+.dress-content-title {
+  color: rgb(54, 57, 88);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.dress-items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.dress-img {
+  border-radius: 20px;
+  background: rgb(241, 241, 241);
+  padding: 40px;
+}
+.dress-img img {
+  width: 100%;
+  height: 100%;
+  border: 2px dashed rgb(211, 206, 206);
+  padding: 10px;
 }

@@ -1,14 +1,39 @@
 
-@media screen and (max-width: 992px) {
-    /* navbar responsive styles here */
-    .navbar ul {
-        display: none;
-      }
-      .navbar .menu-bar {
-        display: block;
-      }
-      /* banner responsive styles here */
-      .banner-section {
-        flex-direction: column;
-    }
+@media screen and (max-width: 425px) {
+  .banner-img .img-two {
+    top: 219px !important;
+    right: 3px !important;
+}
+.banner-content .banner-content-title {
+  font-size: 3rem !important;
+}
+.banner-content .banner-content-title span {
+  font-size: 3rem !important;
+}
+}
+
+@media screen and (max-width: 576px) {
+  /* navbar responsive styles here */
+  .navbar ul {
+    display: none;
+  }
+  .navbar .menu-bar {
+    display: block;
+  }
+  /* banner responsive styles here */
+  .banner-section {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .banner-content {
+    margin-bottom: 50px;
+  }
+  .banner-img .img-two {
+      top: 258px;
+      right: 78px;
+  }
+  /* shopping section responsive here  */
+  .dress-items-container {
+    grid-template-columns: 1fr;
+  }
 }
