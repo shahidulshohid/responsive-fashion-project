@@ -115,6 +115,7 @@ main {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+/* dress section styles */
 .dress-section {
   width: 90%;
   margin: 0 auto;
@@ -145,6 +146,9 @@ main {
 }
 .dress-item-content {
   width: 334px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
 }
 .dress-item-content .item-title {
   color: rgb(54, 57, 88);
@@ -162,6 +166,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 15px;
 }
 .btn-and-rate span {
   color: rgb(250, 190, 76);
@@ -170,4 +175,47 @@ main {
 }
 .both-container-divided {
   margin-top: 50px;
+}
+/* find and free section styles here  */
+.find-and-free-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.find-and-free-items {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+.item-icon {
+  width: 78px;
+  height: 82px;
+}
+.item-icon img {
+  width: 100%;
+  height: 100%;
+  border: 2px dashed rgb(211, 206, 206);
+}
+.item-content .item-title {
+  color: rgb(54, 57, 88);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.item-content .item-description {
+  color: rgb(62, 62, 62);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.find-and-img {
+  max-width: 500px;
+  border: 2px dashed rgb(211, 206, 206);
+}
+.find-and-img img {
+  width: 100%;
+  height: 100%;
 }

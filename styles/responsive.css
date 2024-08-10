@@ -1,19 +1,5 @@
 
 
-/* 425 */
-@media screen and (max-width: 426px) {
-  .banner-img .img-two {
-    top: 220px !important;
-    right: 3px !important;
-}
-.banner-content .banner-content-title {
-  font-size: 3rem !important;
-}
-.banner-content .banner-content-title span {
-  font-size: 3rem !important;
-}
-}
-
 /* 576 */
 @media screen and (max-width: 576px) {
   /* navbar responsive styles here */
@@ -46,9 +32,40 @@
     font-size: 2rem;
     text-align: center;
 }
-.dress-img img {
-  border: 2px dashed rgb(211, 206, 206);
+/* find and free section responsive here */
+.find-and-free-section {
+  flex-direction: column-reverse;
+  gap:50px
 }
+.find-and-img {
+  border: none;
+}
+.find-and-free-items {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-content {
+  text-align: center;
+}
+.item-icon img {
+  border: none;
+}
+}
+
+/* 425 */
+@media screen and (max-width: 426px) {
+  .banner-img .img-two {
+    top: 220px !important;
+    right: 3px !important;
+}
+.banner-content .banner-content-title {
+  font-size: 3rem !important;
+}
+.banner-content .banner-content-title span {
+  font-size: 3rem !important;
+}
+
 }
 
 /* 376 */
